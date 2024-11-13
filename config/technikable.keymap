@@ -77,10 +77,10 @@
 
         layer_5 {
             bindings = <
-&tog 5  &none  &none   &none  &none  &none         &none  &none  &none   &none  &none     &none
-&none   &kp Q  &kp W   &kp E  &kp R  &kp T         &kp Y  &kp U  &kp I   &kp O  &kp P     &kp LBKT
-&none   &kp A  &kp S   &kp D  &kp F  &kp G         &kp H  &kp J  &kp K   &kp L  &kp SEMI  &kp SINGLE_QUOTE
-               &trans  &kp C  &kp V  &none  &none  &kp N  &kp N  &trans
+&tog 5  &none  &none   &none  &none  &none                      &none  &none  &none   &none  &none     &kp BACKSPACE
+&none   &kp Q  &kp W   &kp E  &kp R  &kp T                      &kp Y  &kp U  &kp I   &kp O  &kp P     &kp LBKT
+&none   &kp A  &kp S   &kp D  &kp F  &kp G                      &kp H  &kp J  &kp K   &kp L  &kp SEMI  &kp SINGLE_QUOTE
+               &trans  &kp C  &kp V  &kp DELETE  &kp BACKSPACE  &kp N  &kp N  &trans
             >;
         };
     };
